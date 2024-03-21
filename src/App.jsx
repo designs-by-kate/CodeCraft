@@ -1,15 +1,15 @@
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
-import HomePage from './pages/Home/Home';
-import About from './pages/About/About';
-import HTMLmodule from './pages/HTMLmodule/HTML';
-import CSSmodule from './pages/CSSmodule/CssCourse';
-import JSmodule from './pages/JSmodule/JavaScript';
+import Navbar from './components/Navbar';
+import HomePage from './pages/Home';
+import About from './pages/About';
+import HTMLmodule from './pages/HTMLmodule';
+import CSSmodule from './pages/CSSmodule';
+import JSmodule from './pages/JSmodule';
 import { QuizProvider } from './pages/Quiz/QuizContext';
 import Quiz from './pages/Quiz/QuizIndex';
 import { Toaster } from 'react-hot-toast';
-import Footer from './components/Footer/Footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
