@@ -6,6 +6,8 @@ import Tutorial from '../../components/Tutorial';
 import '../stylesheet.css';
 
 const CssCourse = () => {
+  const embedId = "FQdaUv95mR8?si=LMmoRZH75JC6I9nx";
+  
   return (
     <div className="container-module">
       <div className="row">
@@ -22,7 +24,7 @@ const CssCourse = () => {
         <div className="col">
           <div className="row">
             <div className="col-md tutorial-section">
-              <Tutorial />
+              <Tutorial embedId={embedId}/>
             </div>
             <div className="col-md cheatsheet-section">
               <CheatSheets />
