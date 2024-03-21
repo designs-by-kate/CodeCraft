@@ -1,9 +1,9 @@
 import React from 'react';
-import Description from '../../components/Description/Description'
-import CodeSection from '../../components/CodeSection/CodeSection';
-import CheatSheets from '../../components/CheatSheets/CheatSheets';
-import Tutorial from '../../components/Tutorial/Tutorial';
-import '../ModulePage.css'
+import Description from '../../components/Description'
+import CodeSection from '../../components/CodeSection';
+import CheatSheets from '../../components/CheatSheets';
+import Tutorial from '../../components/Tutorial';
+import '../stylesheet.css'
 
 const JavaScript = () => {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
-import Description from '../../components/Description/Description';
-import CodeSection from '../../components/CodeSection/CodeSection';
-import Tutorial from '../../components/Tutorial/Tutorial';
-import CheatSheets from '../../components/CheatSheets/CheatSheets';
-import '../ModulePage.css'
+import Description from '../../components/Description';
+import CodeSection from '../../components/CodeSection';
+import Tutorial from '../../components/Tutorial';
+import CheatSheets from '../../components/CheatSheets';
+import '../stylesheet.css'
 
 const HTML = () => {
   const embedId = "YOUR_EMBED_ID_HERE";

@@ -1,7 +1,7 @@
 
 import React from "react";
 import PropTypes from "prop-types";
-import './Tutorial.css';
+import './style.css';
 
 const Tutorial = ({ embedId }) => (
     <div className="video-responsive">
