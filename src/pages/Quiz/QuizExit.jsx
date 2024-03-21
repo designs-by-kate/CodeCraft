@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { QuizContext } from './QuizContext';
-import './Quiz.css';
+import './QuizStyle.css';
 
 function QuizExit() {
   const { handleStart } = useContext(QuizContext);

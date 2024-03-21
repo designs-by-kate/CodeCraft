@@ -1,8 +1,8 @@
 
 //import React from 'react';
 // import { Link } from "react-router-dom";
-import './Home1.css'; // Importing the CSS module
-import ProgressBar from '../../components/ProgressBar/ProgressBar';
+import './style.css'; // Importing the CSS module
+import ProgressBar from '../../components/ProgressBar';
 import img from './code-craft-home.jpg';
 
 function HomePage() {

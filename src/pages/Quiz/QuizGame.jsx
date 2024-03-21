@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
 import { QuizContext } from './QuizContext';
-import './Quiz.css';
+import './QuizStyle.css';
 import questions from '../../data/quiz.json';
 import Question from './Question';
 import QuizEnd from './QuizEnd';

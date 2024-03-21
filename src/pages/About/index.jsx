@@ -1,5 +1,5 @@
 import React from 'react';
-import './About1.css';
+import './style.css';
 import { FaGithub } from 'react-icons/fa';
 
 const About = () => {

@@ -1,4 +1,4 @@
-import './CheatSheet.css';
+import './index.css';
 
 const CheatSheets = () => {
   return (

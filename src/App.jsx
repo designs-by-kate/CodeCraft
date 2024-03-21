@@ -7,7 +7,7 @@ import HTMLmodule from './pages/HTMLmodule/HTML';
 import CSSmodule from './pages/CSSmodule/CssCourse';
 import JSmodule from './pages/JSmodule/JavaScript';
 import { QuizProvider } from './pages/Quiz/QuizContext';
-import Quiz from './pages/Quiz/Quiz';
+import Quiz from './pages/Quiz/QuizIndex';
 import { Toaster } from 'react-hot-toast';
 import Footer from './components/Footer/Footer';
 

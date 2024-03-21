@@ -1,7 +1,7 @@
 // QuizStart.js
 import React, { useContext } from 'react';
 import { QuizContext } from './QuizContext';
-import './Quiz.css';
+import './QuizStyle.css';
 
 function QuizStart() {
   const { handleGame, handleLanguageChange } = useContext(QuizContext);

@@ -6,7 +6,7 @@ import Progress from './Progress';
 import QuizExit from './QuizExit'; // Import the QuizExit component
 import { QuizContext } from './QuizContext';
 
-import './Quiz.css';
+import './QuizStyle.css';
 
 function Quiz() {
   const { quizStage, updateQuizStage } = useContext(QuizContext); // Accessing context

@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { QuizContext } from './QuizContext';
-import './Quiz.css';
+import './QuizStyle.css';
 
 function Progress() {
     const { handleStart } = useContext(QuizContext);
